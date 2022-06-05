@@ -1,0 +1,298 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap demo</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+        integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="/css/style.css">
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg sticky-top">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">
+                <img id="nav-logo" src="/img/kids-dream-logo.png" alt=""><br>
+                <p id="nav-logo-text">Kids Dream Entertaitment</p>
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">Home</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                            data-bs-toggle="dropdown" aria-expanded="false">
+                            Party Package
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <li><a class="dropdown-item" href="#">Item 1</a></li>
+                            <li><a class="dropdown-item" href="#">Item 2</a></li>
+                            <li>
+                                <hr class="dropdown-divider">
+                            </li>
+                            <li><a class="dropdown-item" href="#">Item 3</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                            data-bs-toggle="dropdown" aria-expanded="false">
+                            Character Package
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <li><a class="dropdown-item" href="#">Item 1</a></li>
+                            <li><a class="dropdown-item" href="#">Item 2</a></li>
+                            <li>
+                                <hr class="dropdown-divider">
+                            </li>
+                            <li><a class="dropdown-item" href="#">Item 3</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                            data-bs-toggle="dropdown" aria-expanded="false">
+                            Corporate Package
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <li><a class="dropdown-item" href="#">Item 1</a></li>
+                            <li><a class="dropdown-item" href="#">Item 2</a></li>
+                            <li>
+                                <hr class="dropdown-divider">
+                            </li>
+                            <li><a class="dropdown-item" href="#">Item 3</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Gallery</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">About Us</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <div>
+        <img id="slider" src="/img/slider.png" alt="">
+    </div>
+
+
+    <section style="background: url('/img/pattern-bg.png'); background-size: contain; background-repeat: no-repeat;">
+        <div class="container">
+            <h2 class="text-center section-heading">WHAT WE OFFER</h2>
+
+            <div class="row my-5">
+                <div class="col-md-6 col-lg-4 my-3 position-relative">
+                    <div class="position-absolute d-none d-md-block" style="left: -65px; bottom: -65px; z-index: 99;">
+                        <img src="/img/card-left.png" alt="badge" class="img-fluid" style="height: 130px;" />
+                    </div>
+                    <div class="card shadow h-100">
+                        <div class="card-body p-5" id="card-left">
+                            <div class="card-text">
+                                <h4 class="text-center card-heading">Party Package</h4><br>
+                                <p class="text-center mx-2 card-text">
+                                    Face Painting & Temporary Tattoo <br>
+                                    Balloon Sculpting <br>
+                                    Mascot Package <br>
+                                    Henna Tattoo <br>
+                                    Jumping Castle <br>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4 my-3">
+                    <div class="card shadow h-100">
+                        <div class="card-body p-5" id="card-middle">
+                            <div class="card-text">
+                                <h4 class="text-center card-heading">Character Package</h4><br>
+                                <p class="text-center mx-2 card-text">
+                                    Fairy Package <br>
+                                    Princess Package <br>
+                                    Pirate Package <br>
+                                    The Ever Enchanting Elsa or Anna <br>
+                                    Elsa and Anna <br>
+                                    Elsa, Anna, and Olaf <br>
+                                    Clown Package <br>
+                                    Superhero Package <br>
+                                    Magician Package <br>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4 my-3 position-relative">
+                    <div class="position-absolute d-none d-md-block" style="right: -65px; bottom: -65px; z-index: 99;">
+                        <img src="/img/card-right.png" alt="badge" class="img-fluid" style="height: 180px;" />
+                    </div>
+                    <div class="card shadow h-100">
+                        <div class="card-body p-5" id="card-right">
+                            <div class="card-text">
+                                <h4 class="text-center card-heading">Party Package</h4><br>
+                                <p class="text-center mx-2 card-text">
+                                    Face Painting & Temporary Tattoo <br>
+                                    Balloon Sculpting <br>
+                                    Mascot Package <br>
+                                    Henna Tattoo <br>
+                                    Jumping Castle <br>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="text-center">
+            <button class="button-custom" type="button" id="offer-btn">View More</button>
+        </div>
+
+        <div class="container">
+            <h2 class="text-center section-heading">ABOUT US</h2>
+            <div class="row">
+                <div class="col-md-6 text-center">
+                    <img id="about-us-img" src="/img/about-us.png" alt="">
+                </div>
+                <div class="col-md-6">
+                    <div id="about-us-txt">
+                        <p>We are Sydney based premier kids entertainment service provider. We have handful of Children
+                            &
+                            Party Entertainers in Sydney, Parramatta and Blacktown based to do varieties of Kids Party
+                            Entertainment. Our Birthday Party Entertainment packages are designed with professional
+                            Children
+                            & Party Entertainers who are full of fun andb activity lovers. We can custom design your
+                            kid's
+                            party entertainment part according to your need and budget with full of creative activities
+                            and
+                            entertainment. We create the fun and memory that lasts long. We are ready to create
+                            something
+                            special for you. Browse our packages, or call 1300 976 750 to speak with us to select the
+                            best
+                            tailor made package for you.</p>
+                        <p>Our package extends the children's imagination and gives them confidence in front of their
+                            peers.
+                            <br><br>
+
+                            Our team of trained actors and professional kids entertainers can attend your party with as
+                            many
+                            characters you like wearing a high-quality custom handmade costume. <br><br>
+
+                            You can rest assure and leave us all the hard part of your next Kids Party Entertainment.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+        <div class="container">
+            <h2 class="text-center section-heading">BOOK US</h2>
+            <div class="row">
+                <div class="col-md-6 contact-div">
+                    <div class="contact-head">
+                        Contact
+                    </div>
+                    <div>
+                        <table class="contact-table">
+                            <tr style="width: 100%;">
+                                <td style="width: 20%;"><i class="fa-solid fa-phone"></i></td>
+                                <td style="width: 80%;">
+                                    <span style="color: red;">1300 976 750</span> or <span style="color: red;">0433 578
+                                        940</span>
+                                </td>
+                            </tr><br>
+                            <tr style="width: 100%;">
+                                <td style="width: 25%; font-size: 9px;">Weekdays</td>
+                                <td style="width: 75%;">8AM - 6PM</td>
+                            </tr><br>
+                            <tr style="width: 100%;">
+                                <td style="width: 25%;  font-size: 9px;">Weekends</td>
+                                <td style="width: 75%;">9AM - 5PM</td>
+                            </tr><br>
+                        </table>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <form action="#" class="booking-form">
+                        <label for="location">Location</label>
+                        <input type="text" name="location" id="location" placeholder="Where the event will be held">
+                        <label for="date">Date</label>
+                        <input type="text" name="date" id="date" placeholder="Date of the event">
+                        <label for="time">Time</label>
+                        <input type="text" name="time" id="time" placeholder="When will be the party">
+                        <label for="phone">Phone</label>
+                        <input type="text" name="phone" id="phone" placeholder="Your Contact Number">
+                        <div class="text-end">
+                            <button class="button-custom" type="button" id="form-btn">Submit</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+    <div>
+        <img style="width: 100%;" src="/img/field.png" alt="">
+    </div>
+    <footer>
+        <div class="text-center footer-logo">
+            <img id="nav-logo" src="/img/kids-dream-logo.png" alt=""><br>
+            <p id="nav-logo-text">Kids Dream Entertaitment</p>
+        </div>
+        <div class="container">
+            <div class="row footer-div">
+                <div class="col-md-4">
+
+                    <p class="footer-heading">Contact</p>
+                    <i class="fa-solid fa-phone" style="color: white;"></i>&nbsp;&nbsp;1300 976 750
+                    <br>&nbsp; &nbsp; &nbsp;&nbsp;0433 578 940 <br>
+                    <i class="fa-solid fa-envelope" style="color: white;"></i>&nbsp;&nbsp;info@kidsdream.com.au
+                    <br><br><br><br>
+
+                    <p class="footer-heading">Social Media</p>
+                    <i class="fa-brands fa-facebook fa-2x" style="color: white;"></i> &nbsp; &nbsp;
+                    <i class="fa-brands fa-instagram fa-2x" style="color: white;"></i>
+
+                </div>
+
+                <div class="col-md-4 text-center">
+                    <p class="footer-heading">Gallery</p>
+                    <img src="/img/gallery.png" alt=""> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    <img src="/img/gallery2.png" alt=""> <br><br>
+                    <img src="/img/gallery.png" alt="">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    <img src="/img/gallery2.png" alt=""> <br>
+                </div>
+
+                <div class="col-md-4 text-end">
+                    <p class="footer-heading">Sitemap</p><br>
+                    Home <br>
+                    Party Package <br>
+                    Character Package <br>
+                    Corporate Package <br>
+                    Gallery <br>
+                    About Us <br>
+                    Book Now <br>
+                    Contact Us <br>
+                </div>
+            </div>
+        </div>
+
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>

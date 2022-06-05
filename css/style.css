@@ -1,0 +1,141 @@
+body{
+    font-family: 'Poppins', sans-serif;
+}
+nav{
+    background-color: white;
+}
+#nav-logo{
+    height: 50px;
+}
+#nav-logo-text{
+    font-size: 12px;
+    text-transform: uppercase;
+    color: black !important;
+}
+.navbar-brand{
+    margin-left: 100px;
+}
+#navbarSupportedContent{
+    margin-right: 100px;
+}
+.nav-item{
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+#slider{
+    width: 100%;
+}
+.section-heading{
+    color: #DD3333;
+    margin-top: 100px;
+    margin-bottom: 50px;
+    font-weight: bold;
+    text-transform: uppercase;
+    font-size: 36px;
+}
+.card{
+    border-radius: 10px;
+}
+#card-left{
+    background: linear-gradient(197.55deg, #C2035A 6.42%, #DD3333 87.99%);
+    border-radius: 10px;
+}
+#card-middle{
+    background: linear-gradient(207.52deg, #4C6FA2 2.71%, #10356C 92.28%);
+    border-radius: 10px;
+}
+#card-right{
+    background: linear-gradient(210.25deg, #C30F5F 6.15%, #FF3382 92.27%);
+    border-radius: 10px;
+}
+.card-heading{
+    margin-top: 30px;
+    font-weight: bold;
+    text-transform: uppercase;
+    font-size: 24px;
+}
+.card-text{
+    font-size: 16px;
+    margin-left: 15px;
+    color: white;
+    margin-bottom: 30px;
+}
+.button-custom{
+    height: 40px;
+    width: 150px;
+    border: 0px;
+    border-radius: 0px;
+    font-size: 13px;
+}
+#offer-btn{
+    background: #25579E;
+    color: white;
+    text-transform: uppercase;
+}
+#offer-btn:hover{
+    background: white ;
+    border: 1px solid #25579E;
+    color: #25579E;
+}
+#about-us-img{
+    width: 100%;;
+}
+#about-us-txt{
+    margin: 15px;
+    text-align: justify;
+}
+#about-us-txt p{
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.booking-form{
+    margin: 15px;
+}
+.booking-form input{
+    width: 100% !important;
+    height: 36px;
+    border-width: 1px;
+    border-radius: 0px;
+    padding: 10px;
+}
+.booking-form label{
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+#form-btn{
+    margin-top: 40px;
+    background: #DD3333;
+    color: white;
+    text-transform: uppercase;
+}
+#form-btn:hover{
+    background: white ;
+    border: 1px solid #DD3333;
+    color: #DD3333;
+
+}
+.contact-head{
+    font-size: 30px;
+    margin-top: 60px;
+}
+.contact-table tr{
+    height: 50px;
+    padding: 10px;
+}
+.contact-div{
+    padding-left: 20px;
+}
+footer{
+    background: linear-gradient(180deg, #9CB53A 0%, #2B6E14 100%);
+    padding-top: 50px;
+    color:white;
+    font-size: 15px;
+    padding-bottom: 50px;
+}
+.footer-heading{
+    font-size: 20px !important;
+}
+.footer-logo{
+    margin-bottom: 50px;
+}
