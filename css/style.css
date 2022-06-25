@@ -7,6 +7,16 @@ nav{
 #nav-logo{
     height: 50px;
 }
+#nav-icon{
+    align-content: center;
+    height: 30px;
+    margin-bottom: 5px;
+}
+.center-block {
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+}
 #nav-logo-text{
     font-size: 12px;
     text-transform: uppercase;
@@ -129,6 +139,7 @@ nav{
 footer{
     background: linear-gradient(180deg, #9CB53A 0%, #2B6E14 100%);
     padding-top: 50px;
+    margin-top: -10px;
     color:white;
     font-size: 15px;
     padding-bottom: 50px;
@@ -138,4 +149,14 @@ footer{
 }
 .footer-logo{
     margin-bottom: 50px;
+}
+#cloud{
+    padding-top: 50px;
+    padding-bottom: 60px;
+    background-image: url(/img/cloud.png);
+    width: 100%;
+}
+#field{
+    width: 100%;
+    margin-top: -50px;
 }
