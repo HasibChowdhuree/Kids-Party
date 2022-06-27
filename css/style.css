@@ -81,6 +81,13 @@ nav{
     border-radius: 0px;
     font-size: 13px;
 }
+.button-custom-small{
+    height: 30px;
+    width: 100px;
+    border: 0px;
+    border-radius: 0px;
+    font-size: 13px;
+}
 #offer-btn{
     background: #25579E;
     color: white;
@@ -238,4 +245,12 @@ footer{
 
 .page-title-background{
     height: 200px;
+}
+
+.nav-item .active {
+    color: #DD3333 !important;
+}
+a{
+    text-decoration: none;
+    color: black;
 }
