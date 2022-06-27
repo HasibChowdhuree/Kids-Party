@@ -108,6 +108,15 @@ nav{
     border-width: 1px;
     border-radius: 0px;
     padding: 10px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}.booking-form textarea{
+    width: 100% !important;
+    border-width: 1px;
+    border-radius: 0px;
+    padding: 10px;
+    margin-top: 5px;
+    margin-bottom: 5px;
 }
 .booking-form label{
     margin-top: 20px;
@@ -178,7 +187,7 @@ footer{
 }
 .page-title{
     font-size: 36px;
-    color: #DD3333;
+    color: white;
     text-align: center;
     margin-bottom: 50px;
     text-transform: uppercase;
@@ -221,4 +230,9 @@ footer{
 .text-card h1{
     font-size: 25px;
     font-weight: bold;
+}
+
+.page-title-background{
+    background: url('/img/topbanner.png');
+    height: 200px;
 }
