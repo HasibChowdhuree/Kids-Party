@@ -159,6 +159,8 @@ nav{
 footer{
     background: linear-gradient(180deg, #9CB53A 0%, #2B6E14 100%);
     padding-top: 50px;
+    padding-left: 20px;
+    padding-right: 20px;
     margin-top: -10px;
     color:white;
     font-size: 15px;
@@ -180,13 +182,8 @@ footer{
     margin-top: -50px;
 }
 
-@media (max-width: 768px) {
-    #row-1 {
-        order: 3;
-    }
-    #row-2 {
-        order: 1;
-    }
+.footer-right a{
+    color: white;
 }
 
 .nav-margin{
@@ -253,4 +250,32 @@ footer{
 a{
     text-decoration: none;
     color: black;
+}
+.btn:hover{
+    border: 0px white !important;
+}
+.footer-right{
+    text-align: end;
+}
+.footer-mid{
+    text-align: center;
+}
+@media (max-width: 768px) {
+    #row-1 {
+        order: 3;
+    }
+    #row-2 {
+        order: 1;
+    }
+    .footer-left{
+        margin-bottom: 50px;
+    }
+    .footer-right{
+        text-align: start;
+        margin-bottom: 50px;
+    }
+    .footer-mid{
+        text-align: start;
+        margin-bottom: 50px;
+    }
 }
