@@ -22,16 +22,6 @@ nav{
     text-transform: uppercase;
     color: black !important;
 }
-.navbar-brand{
-    margin-left: 100px;
-}
-#navbarSupportedContent{
-    margin-right: 100px;
-}
-.nav-item{
-    margin-left: 10px;
-    margin-right: 10px;
-}
 
 #slider{
     width: 100%;
