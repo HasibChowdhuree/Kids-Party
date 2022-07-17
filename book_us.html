@@ -208,7 +208,7 @@
                             <img src="img/booking_icon.png" style="height: 30px;" alt=""> &nbsp; <span
                                 style="font-size: 20px;"> Reserve your Bookings</span>
                         </div>
-                        <form action="#" class="booking-form">
+                        <form action="forms/book.php" method="post" class="booking-form">
                             <label for="location">Location</label>
                             <input type="text" name="location" id="location" placeholder="Where the event will be held">
                             <label for="date">Date</label>
@@ -221,7 +221,7 @@
                             <input type="text" name="package" id="package"
                                 placeholder="The package you want to purchase">
                             <div class="text-end">
-                                <button class="button-custom" type="button" id="form-btn">Submit</button>
+                                <input class="button-custom" type="submit" id="form-btn" />
                             </div>
                         </form>
                     </div>

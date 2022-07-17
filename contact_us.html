@@ -210,14 +210,14 @@
                                 style="font-size: 20px;"> Make a
                                 Contact</span><br><br>
                         </div>
-                        <form action="#" class="booking-form">
-                            <input type="text" name="location" id="location" placeholder="Email">
-                            <input type="text" name="date" id="date" placeholder="Name">
-                            <input type="text" name="time" id="time" placeholder="Subject">
+                        <form action="forms/contact.php" method="post" class="booking-form">
+                            <input type="email" name="email" id="email" placeholder="Email">
+                            <input type="text" name="name" id="name" placeholder="Name">
+                            <input type="text" name="subject" id="subject" placeholder="Subject">
                             <input type="text" name="phone" id="phone" placeholder="Phone">
-                            <textarea name="" id="" rows="5" placeholder="Message"></textarea>
+                            <textarea name="message" id="" rows="5" placeholder="Message"></textarea>
                             <div class="text-end">
-                                <button class="button-custom" type="button" id="form-btn">Submit</button>
+                            	<input type="submit" class="button-custom" id="form-btn"/>
                             </div>
                         </form>
                     </div>
