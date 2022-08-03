@@ -62,7 +62,7 @@
                                 <li>
                                     <hr class="dropdown-divider">
                                 </li>
-                                <li><a class="dropdown-item" href="#">Mascot Package</a></li>
+                                <li><a class="dropdown-item" href="mascot_package.html">Mascot Package</a></li>
                                 <li>
                                     <hr class="dropdown-divider">
                                 </li>
@@ -123,7 +123,7 @@
                     <li class="nav-item d-flex justify-content-center">
                         <div class="btn-group">
                             <button type="button" class="btn">
-                                <a href="./party_packages.html">
+                                <a href="./corporate_packages.html">
                                     <img id="nav-icon" class="center-block" src="img/corporate.png" alt="">
                                     Corporate <br> Package
                                 </a>
@@ -310,7 +310,7 @@
                         </div>
                     </div>
                     <div class="col-md-6">
-                        <form action="#" class="booking-form">
+                        <form action="forms/book.php" method="post" class="booking-form">
                             <label for="location">Location</label>
                             <input type="text" name="location" id="location" placeholder="Where the event will be held">
                             <label for="date">Date</label>
@@ -319,8 +319,11 @@
                             <input type="text" name="time" id="time" placeholder="When will be the party">
                             <label for="phone">Phone</label>
                             <input type="text" name="phone" id="phone" placeholder="Your Contact Number">
+                            <label for="phone">Package</label>
+                            <input type="text" name="package" id="package"
+                                placeholder="The package you want to purchase">
                             <div class="text-end">
-                                <button class="button-custom" type="button" id="form-btn">Submit</button>
+                                <input class="button-custom" type="submit" id="form-btn" />
                             </div>
                         </form>
                     </div>

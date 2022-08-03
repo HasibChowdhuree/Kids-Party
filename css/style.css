@@ -269,3 +269,16 @@ a{
         margin-bottom: 50px;
     }
 }
+
+nav.navbar .navbar-nav .nav-item .btn-group {
+    display: block;
+    text-align: center;
+}
+
+nav.navbar .navbar-nav .nav-item .btn-group a {
+    color: var(--bs-nav-link-color);
+}
+
+nav.navbar .navbar-nav .nav-item .btn-group a:hover {
+    color: var(--bs-nav-link-hover-color);
+}
