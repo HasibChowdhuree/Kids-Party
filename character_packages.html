@@ -210,15 +210,10 @@
                         </div>
                     </form>
                     <script>
-                        var categoryRadios = document.getElementsByName("categories");
                         var categoryForm = document.getElementById("category_form");
                         categoryForm.onsubmit = function (e) {
                             e.preventDefault();
-                            for (var i = 0; i < categoryRadios.length; i++)
-                                if (categoryRadios[i].checked) {
-                                    location.href = categoryRadios[i].value;
-                                    break;
-                                }
+                            location.href = new FormData(categoryForm).get('categories');
                         };
                     </script>
                 </div>
