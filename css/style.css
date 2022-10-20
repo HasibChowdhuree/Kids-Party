@@ -242,7 +242,7 @@ a{
     color: black;
 }
 .btn:hover{
-    border: 0px white !important;
+    border-color: white !important;
 }
 .footer-right{
     text-align: end;
