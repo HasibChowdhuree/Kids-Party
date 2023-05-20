@@ -1,179 +1,174 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-  xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 
- http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
+<!-- #01554566184 - sutki  -->
+<urlset
+  xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
+            http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd"
+>
+  <!-- created with Free Online Sitemap Generator www.xml-sitemaps.com -->
   <url>
     <loc>https://kidsdream.com.au/</loc>
-    <lastmod>2022-10-20</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>1.0</priority>
+    <lastmod>2023-02-12T08:36:24+00:00</lastmod>
+    <priority>1.00</priority>
   </url>
   <url>
-    <loc>https://kidsdream.com.au/index.html</loc>
-    <lastmod>2022-10-20</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>1.0</priority>
+    <loc>https://kidsdream.com.au/packages/party-packages/</loc>
+    <lastmod>2023-02-12T08:36:24+00:00</lastmod>
+    <priority>0.80</priority>
   </url>
   <url>
-    <loc>https://kidsdream.com.au/contact_us.html</loc>
-    <lastmod>2022-10-20</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
+    <loc>https://kidsdream.com.au/packages/party-packages/face-painting/</loc>
+    <lastmod>2023-02-12T08:36:24+00:00</lastmod>
+    <priority>0.80</priority>
   </url>
   <url>
-    <loc>https://kidsdream.com.au/party_packages.html</loc>
-    <lastmod>2022-10-20</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
+    <loc
+      >https://kidsdream.com.au/packages/party-packages/balloon-sculpting/</loc
+    >
+    <lastmod>2023-02-12T08:36:24+00:00</lastmod>
+    <priority>0.80</priority>
   </url>
   <url>
-    <loc>https://kidsdream.com.au/face_painting.html</loc>
-    <lastmod>2022-10-20</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
+    <loc>https://kidsdream.com.au/packages/party-packages/henna-tattoo/</loc>
+    <lastmod>2023-02-12T08:36:24+00:00</lastmod>
+    <priority>0.80</priority>
   </url>
   <url>
-    <loc>https://kidsdream.com.au/balloon_sculpting.html</loc>
-    <lastmod>2022-10-20</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
+    <loc>https://kidsdream.com.au/packages/party-packages/mascot-package/</loc>
+    <lastmod>2023-02-12T08:36:24+00:00</lastmod>
+    <priority>0.80</priority>
   </url>
   <url>
-    <loc>https://kidsdream.com.au/henna_tattoo.html</loc>
-    <lastmod>2022-10-20</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
+    <loc>https://kidsdream.com.au/packages/character-packages/</loc>
+    <lastmod>2023-02-12T08:36:24+00:00</lastmod>
+    <priority>0.80</priority>
   </url>
   <url>
-    <loc>https://kidsdream.com.au/mascot_package.html</loc>
-    <lastmod>2022-10-20</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
+    <loc
+      >https://kidsdream.com.au/packages/character-packages/fairy-package/</loc
+    >
+    <lastmod>2023-02-12T08:36:24+00:00</lastmod>
+    <priority>0.80</priority>
   </url>
   <url>
-    <loc>https://kidsdream.com.au/character_packages.html</loc>
-    <lastmod>2022-10-20</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
+    <loc
+      >https://kidsdream.com.au/packages/character-packages/princess-package/</loc
+    >
+    <lastmod>2023-02-12T08:36:24+00:00</lastmod>
+    <priority>0.80</priority>
   </url>
   <url>
-    <loc>https://kidsdream.com.au/fairy_package.html</loc>
-    <lastmod>2022-10-20</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
+    <loc
+      >https://kidsdream.com.au/packages/character-packages/pirate-package/</loc
+    >
+    <lastmod>2023-02-12T08:36:24+00:00</lastmod>
+    <priority>0.80</priority>
   </url>
   <url>
-    <loc>https://kidsdream.com.au/princess_package.html</loc>
-    <lastmod>2022-10-20</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
+    <loc
+      >https://kidsdream.com.au/packages/character-packages/elsa-or-enna/</loc
+    >
+    <lastmod>2023-02-12T08:36:24+00:00</lastmod>
+    <priority>0.80</priority>
   </url>
   <url>
-    <loc>https://kidsdream.com.au/pirate_package.html</loc>
-    <lastmod>2022-10-20</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
+    <loc
+      >https://kidsdream.com.au/packages/character-packages/elsa-and-enna/</loc
+    >
+    <lastmod>2023-02-12T08:36:24+00:00</lastmod>
+    <priority>0.80</priority>
   </url>
   <url>
-    <loc>https://kidsdream.com.au/elsa_or_enna.html</loc>
-    <lastmod>2022-10-20</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
+    <loc
+      >https://kidsdream.com.au/packages/character-packages/elsa-enna-olaf/</loc
+    >
+    <lastmod>2023-02-12T08:36:24+00:00</lastmod>
+    <priority>0.80</priority>
   </url>
   <url>
-    <loc>https://kidsdream.com.au/elsa_and_enna.html</loc>
-    <lastmod>2022-10-20</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
+    <loc
+      >https://kidsdream.com.au/packages/character-packages/clown-package/</loc
+    >
+    <lastmod>2023-02-12T08:36:24+00:00</lastmod>
+    <priority>0.80</priority>
   </url>
   <url>
-    <loc>https://kidsdream.com.au/elsa_enna_olaf.html</loc>
-    <lastmod>2022-10-20</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
+    <loc
+      >https://kidsdream.com.au/packages/character-packages/superhero-package/</loc
+    >
+    <lastmod>2023-02-12T08:36:24+00:00</lastmod>
+    <priority>0.80</priority>
   </url>
   <url>
-    <loc>https://kidsdream.com.au/clown_package.html</loc>
-    <lastmod>2022-10-20</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
+    <loc
+      >https://kidsdream.com.au/packages/character-packages/magician-package/</loc
+    >
+    <lastmod>2023-02-12T08:36:24+00:00</lastmod>
+    <priority>0.80</priority>
   </url>
   <url>
-    <loc>https://kidsdream.com.au/superhero_package.html</loc>
-    <lastmod>2022-10-20</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
+    <loc>https://kidsdream.com.au/packages/corporate-packages/</loc>
+    <lastmod>2023-02-12T08:36:24+00:00</lastmod>
+    <priority>0.80</priority>
   </url>
   <url>
-    <loc>https://kidsdream.com.au/magician_package.html</loc>
-    <lastmod>2022-10-20</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
+    <loc
+      >https://kidsdream.com.au/packages/corporate-packages/sports-events/</loc
+    >
+    <lastmod>2023-02-12T08:36:24+00:00</lastmod>
+    <priority>0.80</priority>
   </url>
   <url>
-    <loc>https://kidsdream.com.au/corporate_packages.html</loc>
-    <lastmod>2022-10-20</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
+    <loc>https://kidsdream.com.au/packages/corporate-packages/xmas-events/</loc>
+    <lastmod>2023-02-12T08:36:24+00:00</lastmod>
+    <priority>0.80</priority>
   </url>
   <url>
-    <loc>https://kidsdream.com.au/sports_events.html</loc>
-    <lastmod>2022-10-20</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
+    <loc
+      >https://kidsdream.com.au/packages/corporate-packages/jumping-castle/</loc
+    >
+    <lastmod>2023-02-12T08:36:24+00:00</lastmod>
+    <priority>0.80</priority>
   </url>
   <url>
-    <loc>https://kidsdream.com.au/xmas_events.html</loc>
-    <lastmod>2022-10-20</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
+    <loc>https://kidsdream.com.au/gallery/</loc>
+    <lastmod>2023-02-12T08:36:24+00:00</lastmod>
+    <priority>0.80</priority>
   </url>
   <url>
-    <loc>https://kidsdream.com.au/jumping_castle.html</loc>
-    <lastmod>2022-10-20</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
+    <loc>https://kidsdream.com.au/about-us/</loc>
+    <lastmod>2023-02-12T08:36:24+00:00</lastmod>
+    <priority>0.80</priority>
   </url>
   <url>
-    <loc>https://kidsdream.com.au/gallery.html</loc>
-    <lastmod>2022-10-20</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
+    <loc>https://kidsdream.com.au/contact-us/</loc>
+    <lastmod>2023-02-12T08:36:24+00:00</lastmod>
+    <priority>0.80</priority>
   </url>
   <url>
-    <loc>https://kidsdream.com.au/about_us.html</loc>
-    <lastmod>2022-10-20</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
+    <loc>https://kidsdream.com.au/book-us/</loc>
+    <lastmod>2023-02-12T08:36:24+00:00</lastmod>
+    <priority>0.80</priority>
   </url>
   <url>
-    <loc>https://kidsdream.com.au/book_us.html</loc>
-    <lastmod>2022-10-20</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
+    <loc>https://kidsdream.com.au/gallery/gallery-2/</loc>
+    <lastmod>2023-02-12T08:36:24+00:00</lastmod>
+    <priority>0.64</priority>
   </url>
   <url>
-    <loc>https://kidsdream.com.au/gallery-2.html</loc>
-    <lastmod>2022-10-20</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
+    <loc>https://kidsdream.com.au/gallery/gallery-3/</loc>
+    <lastmod>2023-02-12T08:36:24+00:00</lastmod>
+    <priority>0.64</priority>
   </url>
   <url>
-    <loc>https://kidsdream.com.au/gallery-3.html</loc>
-    <lastmod>2022-10-20</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
+    <loc>https://kidsdream.com.au/gallery/gallery-4/</loc>
+    <lastmod>2023-02-12T08:36:24+00:00</lastmod>
+    <priority>0.64</priority>
   </url>
   <url>
-    <loc>https://kidsdream.com.au/gallery-4.html</loc>
-    <lastmod>2022-10-20</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://kidsdream.com.au/gallery-5.html</loc>
-    <lastmod>2022-10-20</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
+    <loc>https://kidsdream.com.au/gallery/gallery-5/</loc>
+    <lastmod>2023-02-12T08:36:24+00:00</lastmod>
+    <priority>0.64</priority>
   </url>
 </urlset>
