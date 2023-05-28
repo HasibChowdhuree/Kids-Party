@@ -49,7 +49,7 @@
 <body>
     <div class="position-fixed bottom-0 end-0 p-4" style="z-index: 1;">
         <div class="bg-danger d-flex justify-content-center align-items-center rounded shadow"
-            style="font-size: x-large; height: 50px; width: 50px; border-bottom-left-radius: 50% !important; border-top-right-radius: 50% !important;">
+            style="font-size: x-large; height: 50px; width: 55px; border-bottom-left-radius: 50% !important; border-top-right-radius: 50% !important;">
             <a href="tel:+611300 976 750">
                 <i class="fa fa-phone text-light"></i>
             </a>
@@ -232,27 +232,47 @@
             </div>
         </div>
     </nav>
-    <div style="background: url('./img/slider.png'); background-size: cover; background-repeat: no-repeat;">
-        <a href="./book-us/">
-            <img id="slider" src="./img/slider.png" alt="kidsdream-banner-slider">
-        </a>
+    <div class="position-relative overflow-hidden">
+        <img id="slider" src="./img/hero.svg" alt="kidsdream-banner-slider">
 
-        <!-- <div class="row d-flex justify-content-center">
-            <div class="col-md-6">
+        <div class="position-absolute" style="top: 0; left:0; right:0; bottom:0; background: rgb(0,0,0, 0.4)"></div>
+        <div class="container position-absolute text-light h-100 d-flex align-items-center"
+            style="top: 0; left:0; right:0; bottom:0;">
+            <div class="row">
+                <div class="col-md-6">
+                </div>
+                <div class="col-md-6 text-end">
+                    <h1><strong>Kids Dream Entertainment</strong> </h1>
+                    <p>is a Sydney based professional kids entertainment service provider for top quality face
+                        painting, Baloon Twisting, Magic Show, Games & entertainment to all kinds of events including
+                        children parties, Community events, Corporate events and Sports event.</p>
+                    <a class="btn btn-danger rounded-0 pt-4" href='./book-us/'> <i
+                            class="fa fa-angle-right fa-2x pe-5"></i>
+                        Book us</a>
+                </div>
             </div>
-            <div class="col-md-6">
-                <h1>Kids Dream Entertainment</h1>
-                <p>is a sydeny based professional kids entertainment<br>service provider for top quality face painting, Ballon Twisting, Magic Show, Games &<br>entertainment to all kinds of events including children parties, Community evets,<br>Corporate events and Soprts event.</p>
-                <button type="submit">Book us</button>
-            </div>
-        </div> -->
+        </div>
     </div>
+    <section>
+
+        <div class="container">
+            <h2 class="text-center section-heading">Kids Dream brought you the best kids party entertainment service
+            </h2>
+            <p>We are a professional and reliable kids party entertainment service provider based in Sydney, catering to
+                a wide range of events including children parties, community events, corporate events, and sports
+                events. Our goal is to create unforgettable memories for your child and make your party or event a huge
+                success.</p>
+            <p>At Kids Dream Entertainment, we understand the importance of a memorable and enjoyable party experience.
+                That's why our team of professional entertainers is dedicated to providing top-notch entertainment that
+                will leave both children and adults amazed. With years of experience and a passion for what we do, our
+                entertainers have brought joy and laughter to over 1000 parties and events in Sydney.</p>
+        </div>
+    </section>
 
 
     <section style="background: url('./img/pattern-bg.png'); background-size: contain; background-repeat: no-repeat;">
         <div class="container">
             <h2 class="text-center section-heading">WHAT WE OFFER</h2>
-
             <div class="row my-5">
                 <div class="col-md-6 col-lg-4 my-3 position-relative">
                     <div class="position-absolute d-none d-md-block" id="card-left-img">
@@ -265,7 +285,7 @@
                                     <a class="text-white" href="./packages/party-packages/">
                                         Party <br> Package
                                     </a>
-                                </h4><br>
+                                </h4>
                                 <p class="text-center card-text">
                                     <a class="text-white" href="./packages/party-packages/face-painting/">
                                         Face Painting & Temporary Tattoo
@@ -355,6 +375,25 @@
                     </div>
                 </div>
             </div>
+        </div>
+
+        <div class="container">
+            <h2 class="text-center section-heading">Our Professional Entertainer
+            </h2>
+            <p>Our entertainers are not only skilled and talented but also friendly and funny. They know how to engage
+                with children and ensure that everyone is included, making sure no one misses out on the fun. We
+                carefully select our entertainers based on their creative abilities and artistic skills, ensuring they
+                can successfully connect with your children and guests. Plus, they possess arts qualifications, adding
+                an extra touch of creativity to their performances.</p>
+            <p>At Kids Dream Entertainment, we offer a wide range of entertainment options to suit your party or event
+                needs. Whether you're looking for interactive games, face painting, balloon twisting, magic shows, or
+                character appearances, we have it all. You can browse through our packages to find the perfect fit for
+                your celebration or simply give us a call at 1300 976 750. Our friendly team will be more than happy to
+                assist you in designing a personalized package that matches your specific requirements.</p>
+            <p>So, if you want to create a friendly, safe, and fun atmosphere for your child's party or event, Kids
+                Dream Entertainment is here to help. Let us take care of the entertainment while you sit back and enjoy
+                a hassle-free experience. Contact us today and let's make your next kids party in Sydney an
+                unforgettable celebration!</p>
         </div>
 
         <div id="desktop-slider" class="conttainer">
@@ -563,9 +602,26 @@
             <p>Copyright © 2022 - Kids Dream Entertainment Ltd.</p>
             <p>Developed by <a style="color: red;" href="https://rosetech.dev">RoseTech Solutions Ltd.</a></p>
         </div>
-
     </footer>
 
+    <div id="fb-root"></div>
+    <div id="fb-customer-chat" class="fb-customerchat" page_id="1051685061547953" attribution="biz_inbox">
+    </div>
+    <script>
+        window.fbAsyncInit = function () {
+            FB.init({
+                xfbml: true,
+                version: 'v15.0'
+            });
+        };
+        (function (d, s, id) {
+            var js, fjs = d.getElementsByTagName(s)[0];
+            if (d.getElementById(id)) return;
+            js = d.createElement(s); js.id = id;
+            js.src = 'https://connect.facebook.net/en_US/sdk/xfbml.customerchat.js';
+            fjs.parentNode.insertBefore(js, fjs);
+        }(document, 'script', 'facebook-jssdk'));
+    </script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2"
         crossorigin="anonymous"></script>

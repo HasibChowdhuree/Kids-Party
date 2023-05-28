@@ -31,7 +31,7 @@
 <body>
     <div class="position-fixed bottom-0 end-0 p-4">
         <div class="bg-danger d-flex justify-content-center align-items-center rounded shadow"
-            style="font-size: x-large; height: 50px; width: 50px; border-bottom-left-radius: 50% !important; border-top-right-radius: 50% !important;">
+            style="font-size: x-large; height: 50px; width: 55px; border-bottom-left-radius: 50% !important; border-top-right-radius: 50% !important;">
             <a href="tel:+611300 976 750">
                 <i class="fa fa-phone text-light"></i>
             </a>
@@ -335,6 +335,24 @@
     <script defer src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2"
         crossorigin="anonymous"></script>
+    <div id="fb-root"></div>
+    <div id="fb-customer-chat" class="fb-customerchat" page_id="1051685061547953" attribution="biz_inbox">
+    </div>
+    <script>
+        window.fbAsyncInit = function () {
+            FB.init({
+                xfbml: true,
+                version: 'v15.0'
+            });
+        };
+        (function (d, s, id) {
+            var js, fjs = d.getElementsByTagName(s)[0];
+            if (d.getElementById(id)) return;
+            js = d.createElement(s); js.id = id;
+            js.src = 'https://connect.facebook.net/en_US/sdk/xfbml.customerchat.js';
+            fjs.parentNode.insertBefore(js, fjs);
+        }(document, 'script', 'facebook-jssdk'));
+    </script>
 </body>
 
 </html>
