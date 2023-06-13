@@ -350,3 +350,8 @@ nav.navbar .navbar-nav .nav-item .btn-group a:hover {
 .breadcrumb-item + .breadcrumb-item::before {
 	color: #fff;
 }
+
+.breadcrumb-style{
+  --bs-breadcrumb-divider: '>'; 
+  color: #fff;
+}
