@@ -347,3 +347,10 @@ nav.navbar .navbar-nav .nav-item .btn-group a:hover {
 /* iframe.fb_customer_chat_bounce_out_v2 {
     left: 9pt;
 } */
+.breadcrumb-item + .breadcrumb-item::before {
+	color: #fff;
+}
+
+.breadcrumb-divider-angle{
+  --bs-breadcrumb-divider: '>';
+}
