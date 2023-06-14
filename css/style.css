@@ -351,7 +351,6 @@ nav.navbar .navbar-nav .nav-item .btn-group a:hover {
 	color: #fff;
 }
 
-.breadcrumb-style{
-  --bs-breadcrumb-divider: '>'; 
-  color: #fff;
+.breadcrumb-divider-angle{
+  --bs-breadcrumb-divider: '>';
 }
